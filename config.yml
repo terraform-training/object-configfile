@@ -1,0 +1,12 @@
+purpose: learning
+author: mrostanski
+licence: CC0
+effort: none
+meta:
+  language: terraform
+  platform: github
+networks:
+  - name: private
+    cidr: 192.168.1.0/24
+  - name: public
+    cidr: 192.168.0.0/24
